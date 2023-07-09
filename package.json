@@ -4,7 +4,8 @@
   "private": false,
   "scripts": {
     "start": "node ./dist/app.js",
-    "dev": "tsc -w & nodemon dist/app.js"
+    "dev": "tsc -w & nodemon dist/app.js",
+    "build": "npm ci & tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
