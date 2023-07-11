@@ -11,4 +11,4 @@ module.exports = function(app: Application) {
     app.post('*', (req: Request, res: Response) => {
         errorHandler(res, 404, 'Not Found')
     })
-};
+}
