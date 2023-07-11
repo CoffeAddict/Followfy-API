@@ -14,6 +14,8 @@ app.use(cors({
     origin: process.env.APP_URL
 }))
 
+//Import routes
+require('./routes/login')(app)
 require('./routes/exceptions')(app)
 
 app.listen(port, () => {
